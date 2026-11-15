@@ -583,6 +583,9 @@ tbody tr:hover {
 */
 .inner-page-banner {
   min-height: 200px;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
   position: relative;
   z-index: 1;
   height: 100%;
