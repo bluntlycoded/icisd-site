@@ -544,7 +544,7 @@
         e.preventDefault();
     });
 
-    var words = ['26th and 27th February 2026', 'Will be conducted in Hybrid Mode'],
+    var words = ['29th and 30th January 2027', 'Will be conducted in Hybrid Mode'],
         part,
         i = 0,
         offset = 0,
