@@ -404,7 +404,7 @@
     $(function() {
         var eventCounter = $(".countdown");
         if (eventCounter.length) {
-            eventCounter.countdown("2027/01/29", function(e) {
+            eventCounter.countdown("2027/02/04", function(e) {
                 $(this).html(
                     e.strftime(
                         "<div class='countdown-section'><div><div class='countdown-number'>%m</div> <div class='countdown-unit'>Month%!m</div> </div></div><div class='countdown-section'><div><div class='countdown-number'>%n</div> <div class='countdown-unit'>Day%!n</div> </div></div><div class='countdown-section'><div><div class='countdown-number'>%H</div> <div class='countdown-unit'>Hour%!H</div> </div></div><div class='countdown-section'><div><div class='countdown-number'>%M</div> <div class='countdown-unit'>Minutes</div> </div></div><div class='countdown-section'><div><div class='countdown-number'>%S</div> <div class='countdown-unit'>Seconds</div> </div></div>"
@@ -544,7 +544,7 @@
         e.preventDefault();
     });
 
-    var words = ['29th and 30th January 2027', 'Will be conducted in Hybrid Mode'],
+    var words = ['4th and 5th February 2027', 'Will be conducted in Hybrid Mode'],
         part,
         i = 0,
         offset = 0,
